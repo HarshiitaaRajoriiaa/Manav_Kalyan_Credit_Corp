@@ -13,6 +13,15 @@ import ContactUs from "./Components/ContactUs";
 import About from "./Components/About";
 import Legal from "./Components/Legal";
 import Gold from "./Components/Loans/Gold";
+import Home from "./Components/Loans/Home";
+import Personal from "./Components/Loans/Personal";
+import Vechile from "./Components/Loans/Vechile";
+import Bussiness from "./Components/Loans/Bussiness";
+import Daily from "./Components/Schemes/Daily";
+import Fixed from "./Components/Schemes/Fixed";
+import Monthly from "./Components/Schemes/Monthly";
+import Recurring from "./Components/Schemes/Recurring";
+import Saving from "./Components/Schemes/Saving";
 
 
 
@@ -27,6 +36,15 @@ const router = createBrowserRouter(
       <Route path="about" element={<About/>}/>
       <Route path="legal" element={<Legal/>}/>
       <Route path="gold-loan" element={<Gold/>}/>
+      <Route path="home-loan" element={<Home/>}/>
+      <Route path="personal-loan" element={<Personal/>}/>
+      <Route path="Vehicle-loan" element={<Vechile/>}/>
+      <Route path="bussiness-loan" element={<Bussiness/>}/>
+      <Route path="daily-deposit" element={<Daily/>}/>
+      <Route path="fixed-deposit" element={<Fixed/>}/>
+      <Route path="monthly-income" element={<Monthly/>}/>
+      <Route path="recurring-deposit" element={<Recurring/>}/>
+      <Route path="saving-account" element={<Saving/>}/>
     </Route>
    )
 )

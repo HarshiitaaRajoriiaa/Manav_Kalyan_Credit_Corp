@@ -1,46 +1,42 @@
-import React from 'react'
+import React from "react";
 
 export default function Monthly() {
   return (
-    <div className="p-6 max-w-4xl mx-auto  mt-24 mb-24  text-blue-900 bg-white shadow-lg rounded-lg">
-    <h1 className="text-3xl text-orange-600 font-bold mb-4">Monthly Income</h1>
-    <ul className="list-disc pl-6 mb-6">
-      <li>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
-        tincidunt, odio eu vulputate placerat, turpis elit venenatis nisl, ut
-        hendrerit lacus purus eget neque. Nullam id dolor nec felis malesuada
-        condimentum. Ut fringilla interdum mi, ut feugiat odio suscipit non.
-        Fusce at velit ac elit faucibus vestibulum. Duis dictum eros nec justo
-        posuere, in condimentum mauris tincidunt. Integer euismod, massa non
-        pretium vehicula, ex dui feugiat risus, eget sodales felis sapien eu
-        nisl. Vestibulum auctor, risus a interdum vestibulum, lorem ligula
-        facilisis felis, sit amet tincidunt nisl urna eget metus. Donec
-        scelerisque nec urna at fermentum. Sed tincidunt laoreet risus, et
-        tincidunt libero ornare nec.
-      </li>
-      <li>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas. Donec et felis auctor, tincidunt ligula id,
-        posuere libero. Fusce bibendum eros in sapien fermentum, et euismod
-        orci tincidunt. In dictum metus at erat vehicula aliquet. Integer ac
-        dolor at felis efficitur fermentum eget id lorem. Proin non velit
-        elit. Curabitur interdum accumsan felis at bibendum. Nulla ut
-        convallis libero. Nam sed libero nec velit vehicula bibendum a eu mi.
-        Etiam tristique ipsum ut felis malesuada, nec cursus lectus
-        sollicitudin. Curabitur vitae felis nec ligula dictum iaculis.
-      </li>
-      <li>
-        Maecenas efficitur rhoncus turpis, ut venenatis risus auctor ac. Sed
-        tristique magna non quam hendrerit, in consequat nulla tincidunt.
-        Integer ac purus ut metus maximus venenatis non a neque. Ut a sem a
-        erat elementum congue id ac sapien. Suspendisse nec augue vel justo
-        accumsan sodales. In lacinia ligula quis lorem fringilla, eu posuere
-        nulla volutpat. Morbi a ligula at tortor tincidunt laoreet ut sit amet
-        lacus. Sed varius orci sit amet urna facilisis pharetra. Fusce
-        malesuada nec quam ut ultrices. Nam tincidunt bibendum purus id
-        convallis.
-      </li>
-     </ul>
-  </div>
-  )
+    <div className="max-w-4xl mx-auto mt-20 my-8 p-6 bg-white shadow-lg rounded-lg">
+      <h2 className="text-2xl font-bold text-blue-900 mb-4 text-center">
+        Monthly Income Scheme
+      </h2>
+      <table className="w-full border-collapse border border-gray-300">
+        <thead>
+          <tr className="bg-orange-300 text-white">
+            <th className="p-3 border">Time Period</th>
+            <th className="p-3 border">Rate</th>
+            <th className="p-3 border">Maturity Bonus</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="text-center border">
+            <td className="p-3 border">3 Year</td>
+            <td className="p-3 border">12%</td>
+            <td className="p-3 border">0.50%</td>
+          </tr>
+          <tr className="text-center border">
+            <td className="p-3 border">6 Year</td>
+            <td className="p-3 border">12%</td>
+            <td className="p-3 border">3%</td>
+          </tr>
+        </tbody>
+      </table>
+      <div className="mt-6 text-gray-700">
+        <h3 className="text-lg font-semibold text-blue-900 mb-2">
+          Terms & Conditions:
+        </h3>
+        <ul className="list-disc list-inside">
+          <li>Minimum MIS would be of Rs. 10,000/- and further in multiples of Rs. 10,000/-.</li>
+          <li>No TDS Deducted on interest paid on Deposits.</li>
+          <li>Special ROI is applicable only for Senior Citizens.</li>
+        </ul>
+      </div>
+    </div>
+  );
 }
