@@ -41,10 +41,10 @@ export default function Header() {
   ];
 
   return (
-    <header
+    <nav
       className={`fixed top-0 left-0 w-screen z-50 bg-gradient-to-bl from-[#002F6C] to-[#1e7ce6] p-2 transition-all duration-300`}
     >
-      <div className="container mx-auto flex justify-between items-center px-6">
+      <div className="container mx-auto flex justify-between items-center ">
         {/* Logo */}
         <NavLink to="/">
           <img src={logo} alt="Logo" className="h-12 w-auto" />
@@ -218,7 +218,7 @@ export default function Header() {
           </ul>
         </nav>
       )}
-    </header>
+    </nav>
   );
 }
 

@@ -11,6 +11,8 @@ import Carrer from "./Components/Carrer";
 import Privacy from "./Components/Privacy";
 import ContactUs from "./Components/ContactUs";
 import About from "./Components/About";
+import Legal from "./Components/Legal";
+
 
 
 const router = createBrowserRouter(
@@ -22,6 +24,7 @@ const router = createBrowserRouter(
       <Route path="privacy-policy" element={<Privacy/>}/>
       <Route path="contact" element={<ContactUs/>}/>
       <Route path="about" element={<About/>}/>
+      <Route path="legal" element={<Legal/>}/>
     </Route>
    )
 )

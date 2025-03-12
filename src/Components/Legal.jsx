@@ -1,9 +1,9 @@
 import React from "react";
 
-export default function Carrer() {
+export default function Legal() {
   return (
     <div className="p-6 max-w-4xl mx-auto  mt-24 mb-24  text-blue-900 bg-white shadow-lg rounded-lg">
-      <h1 className="text-3xl text-orange-600 font-bold mb-4">Career</h1>
+      <h1 className="text-3xl text-orange-600 font-bold mb-4">Legal</h1>
       <ul className="list-disc pl-6 mb-6">
         <li>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
