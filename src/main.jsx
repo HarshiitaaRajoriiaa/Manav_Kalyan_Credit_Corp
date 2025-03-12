@@ -12,6 +12,7 @@ import Privacy from "./Components/Privacy";
 import ContactUs from "./Components/ContactUs";
 import About from "./Components/About";
 import Legal from "./Components/Legal";
+import Gold from "./Components/Loans/Gold";
 
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
       <Route path="contact" element={<ContactUs/>}/>
       <Route path="about" element={<About/>}/>
       <Route path="legal" element={<Legal/>}/>
+      <Route path="gold-loan" element={<Gold/>}/>
     </Route>
    )
 )
