@@ -8,7 +8,7 @@ export default function Head() {
   }, []);
 
   return (
-    <div className="h-screen w-full flex items-center justify-center  text-black p-10">
+    <div className="h-screen w-full flex items-center justify-center mb-24 mt-24  text-black p-10">
       <div data-aos="fade-up" className="text-center max-w-3xl">
         {/* <h1 className="text-6xl  tracking-wide drop-shadow-lg">
           Welcome To 👋 <div className="text-sky-500 font-bold">Manav Kalyan Credit Cooperative Society Ltd.</div>

@@ -4,8 +4,8 @@ import contactImage from "../Images/contact.webp"; // Replace with your actual i
 
 export default function ContactUs() {
   return (
-    <div className="bg-orange-500 min-h-screen flex items-center justify-center p-6">
-      <div className="container mx-auto flex flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden scale-90">
+    <div className="bg-orange-300 min-h-screen flex items-center justify-center p-6">
+      <div className="container mx-auto flex mt-20  flex-col md:flex-row items-center bg-white shadow-lg rounded-lg overflow-hidden scale-90">
         
         {/* Left Section - Contact Form */}
         <div className="w-full md:w-3/5 p-6">
@@ -17,15 +17,15 @@ export default function ContactUs() {
           {/* Contact Info */}
           <div className="mb-4 space-y-3">
             <div className="flex items-center space-x-2 text-gray-700">
-              <Phone size={18} className="text-orange-500" />
+              <Phone size={18} className="text-orange-300" />
               <span className="text-sm">011-43594191</span>
             </div>
             <div className="flex items-center space-x-2 text-gray-700">
-              <Mail size={18} className="text-orange-500" />
+              <Mail size={18} className="text-orange-300" />
               <span className="text-sm">contact@mkccsl.com</span>
             </div>
             <div className="flex items-center space-x-2 text-gray-700">
-              <MapPin size={18} className="text-orange-500" />
+              <MapPin size={18} className="text-orange-300" />
               <span className="text-sm">Delhi, India</span>
             </div>
           </div>
@@ -58,7 +58,7 @@ export default function ContactUs() {
             </div>
             <button
               type="submit"
-              className="w-full bg-orange-500 text-white py-2 rounded-lg hover:bg-orange-600 transition duration-300 text-sm"
+              className="w-full bg-orange-300 text-white py-2 rounded-lg hover:bg-orange-400 transition duration-300 text-sm"
             >
               Send Message
             </button>

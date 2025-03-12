@@ -9,13 +9,11 @@ import LandingPage from './LandingPage'
 export default function HomePage() {
   return (
     <>
-        <Header/>
+        {/* <Header/> */}
         <LandingPage/>
         <Schemes/>
         <AboutUs/>
         <ContactUs/>
-        {/* <Feedback/> */}
-        <Footer/>
     </>
     // <div>HomePage</div>
   )
