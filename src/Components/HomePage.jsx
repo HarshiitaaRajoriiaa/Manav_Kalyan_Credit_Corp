@@ -11,8 +11,8 @@ export default function HomePage() {
   return (
     <>
         {/* <Header/> */}
-        <Whatapp/>
         <LandingPage/>
+        <Whatapp/>
         <Schemes/>
         <AboutUs/>
         <ContactUs/>
