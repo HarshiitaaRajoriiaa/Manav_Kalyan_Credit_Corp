@@ -5,11 +5,13 @@ import AboutUs from './AboutUs'
 import Schemes from './Schemes'
 import ContactUs from './ContactUs'
 import LandingPage from './LandingPage'
+import Whatapp from './whatapp'
 
 export default function HomePage() {
   return (
     <>
         {/* <Header/> */}
+        <Whatapp/>
         <LandingPage/>
         <Schemes/>
         <AboutUs/>
